@@ -1,25 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>I & E Project - Homie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homie: Organize Shared Living - I & E Project Team 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #f8f8f8;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        h2 {
+            text-align: center;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: #3c4043;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .team-info {
+            text-align: center;
+            margin-top: 10px;
+            color: #777;
+            font-size: 0.9em;
+        }
+        .links-section a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            flex-basis: 45%;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            background-color: #fafafa;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .gallery-item p {
+            font-size: 0.9em;
+            color: #666;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
 
-<h1>I & E Project</h1>
-<h2>Team 4 - Abeera, Cheuk Ying, Lamia, Qaisar</h2>
+        <h1>🏡 Homie: Organize Shared Living, Effortlessly</h1>
+        <h2>Stop Conflict. Start Living.</h2>
+        <p class="team-info">I & E Project | Team 4: Abeera, Cheuk Ying, Lamia, Qaisar</p>
 
-<h3>Summary of Homie</h3>
-<p>
-Homie is a mobile app that helps shared households organise chores clearly and fairly.<br>
-It solves confusion and conflict caused by unclear responsibilities.<br>
-Members can assign tasks, set deadlines, and receive reminders.<br>
-Completed tasks are logged to show contribution and progress.<br>
-A shared calendar and dashboard improve transparency and communication.
-</p>
+        <h3>Summary</h3>
+        <p>
+            Living with roommates is great, but managing chores, tasks, and shared responsibilities can lead to confusion and unnecessary conflict.
+            <strong>Homie</strong> is a mobile app designed to bring
+            <strong>clarity and fairness</strong> back to your shared household by automating task management, logging contributions, and improving communication.
+        </p>
 
-<p>Link to PDF: <a href="LINK_HERE">PDF</a></p>
-<p>Link to Github repo for prototype: <a href="https://github.com/mesyeux/i-e-25">GitHub Repository</a></p>
+        <h3>✨ Key Features & Benefits</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>What It Solves</th>
+                    <th>Benefit for Your Household</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Clear Task Assignment</strong></td>
+                    <td>Unclear responsibilities and task ownership.</td>
+                    <td>Everyone knows exactly what they need to do and when.</td>
+                </tr>
+                <tr>
+                    <td><strong>Contribution Log</strong></td>
+                    <td>The feeling that one person does all the work.</td>
+                    <td>Tracks completed tasks automatically to ensure fair and transparent contribution.</td>
+                </tr>
+                <tr>
+                    <td><strong>Shared Calendar & Reminders</strong></td>
+                    <td>Missed deadlines and forgotten chores.</td>
+                    <td>Stay on track with automatic alerts and a unified schedule.</td>
+                </tr>
+                <tr>
+                    <td><strong>Instant Transparency</strong></td>
+                    <td>Miscommunication and awkward conversations.</td>
+                    <td>A shared dashboard gives everyone a real-time overview of household progress.</td>
+                </tr>
+            </tbody>
+        </table>
 
+        <h3>📱 Prototype Walkthrough</h3>
+        <div class="image-gallery">
+
+            <div class="gallery-item">
+                <img src="./Images/Add_Household.bmp" alt="Homie Initial Screen">
+                <p><strong>1. Get Started:</strong> The initial screen prompts users to create their first Household to begin organizing.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./Images/Household_Added.bmp" alt="Homie Household Tasks Screen">
+                <p><strong>2. Household View:</strong> Once a Household is created (e.g., 'Coloc'), dedicated sections for Members and Tasks appear.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./Images/Add_Member.bmp" alt="Homie Add Member Dialog">
+                <p><strong>3. Adding Members:</strong> Simple form to add household members and optionally assign them a role.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./Images/Add_Task.png" alt="Homie Add Task Dialog">
+                <p><strong>4. Adding Tasks:</strong> Create a task with a title, assign it to a member, and set a deadline.</p>
+            </div>
+
+        </div>
+
+        <h3 class="links-section">🔗 Project Links</h3>
+        <p>
+            <strong>Project Documentation (PDF):</strong>
+            <a href="LINK_HERE">View Details</a><br>
+            <strong>Prototype Code:</strong>
+            <a href="https://github.com/mesyeux/i-e-25">Explore the GitHub Repository</a>
+        </p>
+
+    </div>
 </body>
 </html>
