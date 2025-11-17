@@ -108,6 +108,17 @@
             padding-left: 20px;
         }
 
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .two-column h3 {
+            margin-top: 0;
+        }
+
+
     </style>
 </head>
 <body>
@@ -236,24 +247,30 @@
         </div>
 
         <section id="business-strategy" class="scroll-mt-20 max-w-5xl mx-auto px-4">
-        <h2 class="section-title">Business Strategy</h2>
+        <h2 class="section-title my-8">Business Strategy</h2>
         
         
-        <h3 class="text-2xl font-semibold mt-8 mb-3">Customer Acquisition</h3>
-        <ul class="list-disc pl-6 space-y-2">
-            <li>Target shared households and student dorms</li>
-            <li>Promote via social media, university campaigns, and referrals</li>
-            <li>Simple onboarding for multiple household members</li>
-        </ul>
+        <div class="two-column">
+            <div>
+                <h3 class="text-2xl font-semibold mb-3">Customer Acquisition</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Target shared households and student dorms</li>
+                    <li>Promote via social media, university campaigns, and referrals</li>
+                    <li>Simple onboarding for multiple household members</li>
+                </ul>
+            </div>
+        
+            <div>
+                <h3 class="text-2xl font-semibold mb-3">Customer Retention</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Transparent logs & dashboards ensuring fairness and accountability</li>
+                    <li>Notifications & reminders for task completion</li>
+                    <li>Gamification: points, badges, streak rewards</li>
+                    <li>Personalization: color-coded members, task categories, urgency labels</li>
+                </ul>
+            </div>
+        </div>
 
-
-        <h3 class="text-2xl font-semibold mt-8 mb-3">Customer Retention</h3>
-        <ul class="list-disc pl-6 space-y-2">
-            <li>Transparent logs & dashboards ensuring fairness and accountability</li>
-            <li>Notifications & reminders for task completion</li>
-            <li>Gamification: points, badges, streak rewards</li>
-            <li>Personalization: color‑coded members, task categories, urgency labels</li>
-        </ul>
 
 
         <h3 class="text-2xl font-semibold mt-8 mb-3">CRM View</h3>
