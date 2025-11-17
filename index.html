@@ -93,6 +93,21 @@
             color: #666;
             margin: 0;
         }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .feature-box h4 {
+            margin-bottom: 10px;
+            color: #3c4043;
+        }
+        .feature-box ul {
+            padding-left: 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -143,32 +158,39 @@
         </table>
 
         <h3>🧩 Functionalities</h3>
-        <h4>Must-Have Features</h4>
-        <ul>
-            <li>Create a household space</li>
-            <li>Add members or join household via link or QR code</li>
-            <li>Create a task</li>
-            <li>Assign task to a household member</li>
-            <li>Add a deadline (specific date)</li>
-            <li>Mark task as done</li>
-            <li>Reassign task / request help</li>
-            <li>Activity log (who completed which tasks)</li>
-            <li>Calendar views: daily / weekly / monthly</li>
-            <li>User account creation + login</li>
-            <li>Email notifications for reminders</li>
-        </ul>
+
+        <div class="features-grid">
+            <div class="feature-box">
+                <h4>Must-Have Features</h4>
+                <ul>
+                    <li>Create a household space</li>
+                    <li>Add members or join household via link or QR code</li>
+                    <li>Create a task</li>
+                    <li>Assign task to a household member</li>
+                    <li>Add a deadline (specific date)</li>
+                    <li>Mark task as done</li>
+                    <li>Reassign task / request help</li>
+                    <li>Activity log (who completed which tasks)</li>
+                    <li>Calendar views: daily / weekly / monthly</li>
+                    <li>User account creation + login</li>
+                    <li>Email notifications for reminders</li>
+                </ul>
+            </div>
         
-        
-        <h4>Nice-to-Have Features</h4>
-        <ul class="nice-to-have">
-            <li>Point or reward system</li>
-            <li>Task categories (cleaning, cooking, shopping…)</li>
-            <li>Color-code for each member</li>
-            <li>Add a time for a task</li>
-            <li>Mark urgent vs non-urgent tasks</li>
-            <li>Delay or postpone non-urgent tasks</li>
-            <li>Comment section under each task</li>
-        </ul>
+            <div class="feature-box">
+                <h4>Nice-to-Have Features</h4>
+                <ul>
+                    <li>Point or reward system</li>
+                    <li>Task categories (cleaning, cooking, shopping…)</li>
+                    <li>Color-code for each member</li>
+                    <li>Add a time for a task</li>
+                    <li>Mark urgent vs non-urgent tasks</li>
+                    <li>Delay or postpone non-urgent tasks</li>
+                    <li>Comment section under each task</li>
+                </ul>
+            </div>
+        </div>
+
 
         <h3>📱 Prototype Walkthrough</h3>
         <div class="image-gallery">
